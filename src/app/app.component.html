@@ -1,0 +1,6 @@
+<nav >
+  <button id="step1"   routerLink="step1" style="width: 300px;">Step1</button>
+  <button id="step2"  routerLink="step2" [disabled]="getDisability()"style="width: 300px;">Step2</button>
+  <button id="step3"  routerLink="step3" [disabled]="getDisability1()"style="width: 300px;">Step3</button>
+</nav>
+<router-outlet></router-outlet>
